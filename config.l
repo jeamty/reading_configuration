@@ -28,7 +28,7 @@ EXP ([Ee][-+]?[0-9]+)
 
 ^\n							{/*忽略空行*/}
 \n							{return EOL ;}
-"//".*
+#[^\n]*\n					{/*忽略注释*/}
 [ \t]						{/*忽略空白符*/}
 .							{yyerror("Mystery character %c\n",*yytext) ;}
 %%

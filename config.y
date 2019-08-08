@@ -72,6 +72,7 @@
 
 config : line config            {
 								}
+	| error {printf("配置文件出错，在第%d行\n",yylineno) ;}
 	| 							{
 									printf("读取配置文件完成！\n"); ;
 								}
