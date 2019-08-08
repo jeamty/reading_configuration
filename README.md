@@ -1,0 +1,2 @@
+# reading_configuration
+通过Flex和Bison生成一个读取配置文件信息的程序
