@@ -1,0 +1,8 @@
+#.gitignore
+config
+config.bison.tab.c
+config.bison.tab.h
+config.bison.tab.o
+config.lex.yy.c
+config.lex.yy.o
+main.o
